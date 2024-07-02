@@ -65,7 +65,7 @@ const App = () => {
       <div>
         <ul>
           {filteredTasks.map((task) => (
-            <Task key={task.id} data={task} /> // Fixed the map function to properly return the Task component
+            <Task key={task.id} data={task} /> 
           ))}
         </ul>
       </div>
